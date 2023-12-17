@@ -34,7 +34,7 @@ public class Register extends AppCompatActivity {
         password2=findViewById(R.id.editTextTextPassword2);
         register= findViewById(R.id.btnregistro);
 
-        Intent registro= new Intent(getApplicationContext(), Materiales.class);
+        Intent registro= new Intent(getApplicationContext(), MainActivity.class);
 
         register.setOnClickListener(new View.OnClickListener() {
             @Override
