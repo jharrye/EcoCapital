@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A2AA5C"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".StatisticActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#407842"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="3dp"
+            android:elevation="20dp"
+            android:gravity="center"
+            android:background="#4CAF50"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Carton"
+                android:textAlignment="center"
+                android:textColor="#E7EEF1"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textViewTotalCarton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="000 kl"
+                android:textAlignment="center"
+                android:textColor="#F8EDED"
+                android:textSize="32dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="3dp"
+            android:gravity="center"
+            android:background="#4CAF50"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textCobre"
+                android:layout_width="101dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cobre"
+                android:textAlignment="center"
+                android:textColor="#F5F6E9"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewTotalCobre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="000 kl"
+                android:textAlignment="center"
+                android:textColor="#F3E8E8"
+                android:textSize="32sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="3dp"
+            android:gravity="center"
+            android:background="#4CAF50"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textVidrio"
+                android:layout_width="101dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="vidrio"
+                android:textAlignment="center"
+                android:textColor="#F3F6F8"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewTotalV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="000 kl"
+                android:textAlignment="center"
+                android:textColor="#F3EAEA"
+                android:textSize="32sp"
+                />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="3dp"
+            android:background="#4CAF50"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="plastic"
+                android:textAlignment="center"
+                android:textColor="#F6F6F4"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewTotalPlastic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="000kl"
+                android:textAlignment="center"
+                android:textColor="#EFE8E8"
+                android:textSize="32sp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total pagado:"
+            android:textColor="#010B0F"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textViewTotalPay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$500.000"
+            android:textColor="#EF2020"
+            android:background="@color/white"
+            android:textSize="32sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="358dp"
+        android:layout_margin="5dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+
+            android:text="Mes de Mayor Registro"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="carton"
+            android:textColor="#060700"
+            android:background="@color/white"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_margin="3dp"
+            android:gravity="center"
+            android:background="#4CAF50"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/textViewMonthMaxCarton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Agosto"
+                android:textAlignment="center"
+                android:textColor="#ECF1F3"
+                android:textSize="32sp"
+
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textViewMaxCartonQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="00 kl"
+                android:textAlignment="center"
+                android:textColor="#F3E7E7"
+                android:textSize="32sp"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewNameMes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cobre"
+            android:textColor="#060700"
+            android:background="@color/white"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="3dp"
+            android:gravity="center"
+            android:background="#4CAF50"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewMonthMaxCobre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Agosto"
+                android:textAlignment="center"
+                android:textColor="#EBECE3"
+                android:textSize="32sp"
+
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textViewMaxCobreQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="00 kl"
+                android:textAlignment="center"
+                android:textColor="#FAF2F2"
+                android:textSize="32sp"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewNameMesVidrio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="vidrio"
+            android:textColor="#060700"
+            android:background="@color/white"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="3dp"
+            android:gravity="center"
+            android:background="#4CAF50"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewMonthMaxVidrio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Agosto"
+                android:textAlignment="center"
+                android:textColor="#EBF2F4"
+                android:textSize="32sp"
+
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textViewMaxVidrioQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="00 kl"
+                android:textAlignment="center"
+                android:textColor="#F4EFEF"
+                android:textSize="32sp"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewNameplastico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="plastico"
+            android:textColor="#060700"
+            android:background="@color/white"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="3dp"
+            android:background="#4CAF50"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewMonthMaxPlastico"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Agosto"
+                android:textAlignment="center"
+                android:textColor="#F8F7F4"
+                android:textSize="32sp"
+
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textViewMaxPlasticQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="00 Kl"
+                android:textAlignment="center"
+                android:textColor="#F1EEEE"
+                android:textSize="32sp"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
