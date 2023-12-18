@@ -112,8 +112,8 @@ public class StatisticActivity2 extends AppCompatActivity {
                 month = i.getMonth();
             }
         }
-        total_cardboard.setText(total + " L");
-        max_carton_quantity.setText(max + " L");
+        total_cardboard.setText(total + " k");
+        max_carton_quantity.setText(max + " k");
         max_carton_month.setText(month);
     }
 
@@ -128,8 +128,8 @@ public class StatisticActivity2 extends AppCompatActivity {
                 month = i.getMonth();
             }
         }
-        total_Plastic.setText(total + " KWh");
-        max_plastic_quantity.setText(max + " KWh");
+        total_Plastic.setText(total + " k");
+        max_plastic_quantity.setText(max + " K");
         max_plastic_month.setText(month);
     }
     public void total_consume_copper(ArrayList<copper> list) {
@@ -143,8 +143,8 @@ public class StatisticActivity2 extends AppCompatActivity {
                 month = i.getMonth();
             }
         }
-        total_copper.setText(total + " L");
-        max_copper_quantity.setText(max + " L");
+        total_copper.setText(total + " k");
+        max_copper_quantity.setText(max + " k");
         max_copper_month.setText(month);
     }
     public void total_consume_glass(ArrayList<glass> list) {
@@ -158,8 +158,8 @@ public class StatisticActivity2 extends AppCompatActivity {
                 month = i.getMonth();
             }
         }
-        total_glass.setText(total + " L");
-        max_glass_quantity.setText(max + " L");
+        total_glass.setText(total + " k");
+        max_glass_quantity.setText(max + " k");
         max_glass_month.setText(month);
     }
 
