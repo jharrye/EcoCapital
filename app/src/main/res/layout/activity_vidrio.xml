@@ -66,13 +66,13 @@
 
     <LinearLayout
         android:id="@+id/linearLayout8"
-        android:layout_width="374dp"
-        android:layout_height="54dp"
+        android:layout_width="342dp"
+        android:layout_height="58dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="6dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintHorizontal_bias="0.587"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView9">
 
@@ -101,8 +101,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout11"
-        android:layout_width="374dp"
-        android:layout_height="54dp"
+        android:layout_width="342dp"
+        android:layout_height="58dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="6dp"
         android:orientation="horizontal"
@@ -138,7 +138,7 @@
         android:id="@+id/btnRe3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="#EB378A60"
         android:text="Registrar"
         app:cornerRadius="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -149,12 +149,12 @@
 
     <LinearLayout
         android:id="@+id/linearLayout9"
-        android:layout_width="374dp"
-        android:layout_height="54dp"
+        android:layout_width="342dp"
+        android:layout_height="58dp"
         android:layout_marginTop="12dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintHorizontal_bias="0.536"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout11">
 
